@@ -3963,6 +3963,7 @@ input, select, textarea {
 
 /* Landing */
 
+/*
 	body.landing #page-wrapper {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/beerbanner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/beerbanner.jpg");
@@ -3974,7 +3975,15 @@ input, select, textarea {
 		background-size: cover;
 		padding-top: 0;
 	}
+*/
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 
+z-index: 100;}
 	body.landing #footer {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
